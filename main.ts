@@ -9,6 +9,6 @@ import { join } from 'node:path';
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
 const JOKE =
-  "My agent called its commit 'minor cleanup.' The diff touches 47 files. Git blame now says my name.";
+  "My agent wrote the incident report for its own outage. It blames 'legacy code.' The legacy code is from Tuesday.";
 
 writeFileSync(join(OUTPUT_DIR, 'entry.txt'), JOKE);
